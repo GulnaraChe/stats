@@ -36,9 +36,9 @@ public class SalesCalculating {
     }
     public int aboveAverage(long[] sales){ //выше среднего
         int countAbove = 0;
-        int average = averageSales(sales)
+        double average = averageSales(sales);
         for (int i = 0; i < sales.length; i++){
-            if (sales[i] > average {
+            if (sales[i] > average) {
                 countAbove += 1;
             }
         }
@@ -46,9 +46,9 @@ public class SalesCalculating {
     }
     public int belowAverage(long[] sales){ //ниже среднего
         int countBelow = 0;
-        int average = averageSales(sales)
+        double average = averageSales(sales);
         for (int i = 0; i < sales.length; i++){
-            if (sales[i] < average {
+            if (sales[i] < average) {
                 countBelow += 1;
             }
         }
